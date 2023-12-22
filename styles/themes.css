@@ -10,6 +10,7 @@
     --button-text-color: var(--color-white, #fff);
     --text-color: var(--color-black, #000000);
     --background-color: var(--color-white, #ffffff);
+    --button-hover-color: var(--color-white, #ffffff);
     --page-background-image: repeating-linear-gradient(
       to left,
       #d3d3d3 0 2px,
@@ -25,6 +26,7 @@
     --page-main-font-weight: 465;
     --button-text-color: var(--color-green, #00cc14);
     --text-color: var(--color-green, #00cc14);
+    --button-hover-color: var(--color-green, #00cc14);
     --page-background-color: var(--color-black, #000000);
     --page-background-image: repeating-linear-gradient(
         to left,
@@ -41,6 +43,7 @@
         --page-main-font-weight: 465;
         --button-text-color: var(--color-green, #00cc14);
         --text-color: var(--color-green, #00cc14);
+        --button-hover-color: var(--color-green, #00cc14);
         --page-background-color: var(--color-black, #000000);
         --page-background-image: repeating-linear-gradient(
             to left,
