@@ -12,6 +12,10 @@
 
     --button-hover-color: var(--color-white, #ffffff);
 
+    --like-main-body-color: none;
+    --like-contour-color: var(--text-color, #000000);
+    --like-sparks-color: #ff0000;
+
     --page-background-image:
     repeating-linear-gradient(
       to left,

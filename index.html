@@ -119,16 +119,29 @@
       </ul>
       <button
         type="button"
-        onclick="window.modal.showModal();"
+        onclick="window.modal.showModal()"
         aria-controls="modal"
         class="button button-save"
       >
         <svg class="button__icon" viewBox="0 0 29 28">
-          <use href="svg/floppy.svg#floppy" />
+          <use id="floppy" href="svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
     </main>
+    <dialog class="modal" id="modal">
+      <div class="modal-content">
+        <svg class="modal-icon" viewBox="0 0 29 28">
+          <use href="svg/floppy.svg#floppy" />
+        </svg>
+        <p>Вставьте дискету,чтобы продолжить</p>
+      </div>
+      <form method="dialog">
+        <button type="submit" class="button modal-button">
+          <span class="button__text">ок</span>
+        </button>
+      </form>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
