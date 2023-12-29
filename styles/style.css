@@ -31,7 +31,7 @@
 }
 
 .filter-5 {
-  filter: contrast(60%) saturate(120%);
+  filter: contrast(60%) saturate(120%) hue-rotate(116deg);
 }
 
 .filter-6 {
