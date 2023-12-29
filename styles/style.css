@@ -14,31 +14,31 @@
 
 */
 
-.filter-grayscale {
+.filter-1 {
   filter: grayscale(70%);
 }
 
-.filter-sepia {
+.filter-2 {
   filter: sepia(80%);
 }
 
-.filter-blur {
+.filter-3 {
   filter: blur(2px);
 }
 
-.filter-brightness {
+.filter-4 {
   filter: brightness(65%);
 }
 
-.filter-multi {
+.filter-5 {
   filter: contrast(60%) saturate(120%) hue-rotate(116deg);
 }
 
-.filter-invert {
+.filter-6 {
   filter: invert(35%);
 }
 
-.filter-opacity {
+.filter-7 {
   filter: opacity(80%);
 }
 
