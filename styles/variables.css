@@ -9,6 +9,8 @@
 
     --text-color: var(--color-black, #000000);
     --page-background-color: var(--color-white, #ffffff);
+    --page-main-font-weight: 400;
+    --header-font-weight: 700;
 
     --button-hover-color: var(--color-white, #ffffff);
 

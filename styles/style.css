@@ -51,6 +51,7 @@
   background-image: var(--page-background-image, #ffffff);
   background-size: cover;
   background-attachment: fixed;
+  font-variation-settings: "wght" var(--page-main-font-weight, 400);
 }
 
 .page-header {
@@ -199,8 +200,8 @@
   font-family: var(--page-main-font-family, "Inter", sans-serif);
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
+  font-variation-settings: "wght" var(--header-font-weight, 700);
 }
 
 .card-img {
