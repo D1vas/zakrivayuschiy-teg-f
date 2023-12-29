@@ -13,35 +13,32 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
-.filter-0 {
-  filter: opacity(70%)
-}
 
-.filter-1 {
+.filter-grayscale {
   filter: grayscale(70%);
 }
 
-.filter-2 {
+.filter-sepia {
   filter: sepia(80%);
 }
 
-.filter-3 {
+.filter-blur {
   filter: blur(2px);
 }
 
-.filter-4 {
+.filter-brightness {
   filter: brightness(65%);
 }
 
-.filter-5 {
+.filter-multi {
   filter: contrast(60%) saturate(120%) hue-rotate(116deg);
 }
 
-.filter-6 {
+.filter-invert {
   filter: invert(35%);
 }
 
-.filter-7 {
+.filter-opacity {
   filter: opacity(80%);
 }
 
