@@ -11,6 +11,7 @@
     --text-color: var(--color-black, #000000);
     --background-color: var(--color-white, #ffffff);
     --button-hover-color: var(--color-white, #ffffff);
+    --page-background-color: var(--color-white, #ffffff);
     --page-background-image: repeating-linear-gradient(
       to left,
       #d3d3d3 0 2px,
@@ -38,7 +39,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root.theme-dark {
+    :root {
         --header-font-weight: 785;
         --page-main-font-weight: 465;
         --button-text-color: var(--color-green, #00cc14);
