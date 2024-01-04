@@ -328,26 +328,30 @@
   max-inline-size: 355px;
   font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
   color: var(--text-color, #000000);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   text-transform: uppercase;
   background-color: var(--page-background-color, #ffffff);
-  gap: 20px;
+  border: 2px solid var(--text-color, #000000);
+  padding: 30px 30px;
+  font-size: 14px;
+  height: 195px;
 }
 
 .modal-icon {
   height: 39px;
   width: 39px;
   flex-shrink: 0;
+  
 }
 
 .modal[open] {
   display: grid;
-  /* Safari fix */
   grid-template-rows: repeat(2, min-content);
   gap: 30px;
+  align-content: center;
+  justify-content: center;
 }
+/*у меня вроде в середине открывается*/
 
 .modal::backdrop {
   opacity: 0.75;
@@ -356,7 +360,7 @@
 
 .modal-content {
   display: flex;
-  justify-self: center;
+  align-items: center;
   gap: 20px;
 }
 
@@ -369,6 +373,7 @@
   .modal {
     padding: 28px 34px 28px 40px;
     max-inline-size: 340px;
+    height: 195px;
   }
 
   .button-save {
@@ -378,6 +383,10 @@
   .button__icon {
     block-size: 28px;
     inline-size: 28px;
+  }
+
+  .card-img-label {
+    inset-inline-end: 11px;
   }
 }
 
